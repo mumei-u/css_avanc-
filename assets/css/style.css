@@ -1,16 +1,47 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+nav {
+  padding: 0;
+  margin: 0;
+  background: #2c3e50;
+  display: flex;
+  justify-content: space-around;
+  height: 60px;
+  align-items: center;
+}
+.link {
+    color: grey;
+    text-decoration: none;
+    margin: 0 7px;
+    font-size: 18px;
+}
+
+.link:hover {
+  color: white;
+  transition: 0.2s;
+}
+
+.logo {
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+  transition: 0.2s;
+  font-weight: bolder;
+}
+
 .header-title {
-  position: sticky;
+  position: absolute;
   text-align: center;
+  left: 43%;
+  top: 25%;
+  font-size: 25px;
+  height: 20px;
+  font-style: bolder;
+
 }
 
 .header-img{
   position: static;
-
-}
-
-#navbar {
-  text-align: center;
-  background: grey;
-  top: 0px;
-  right: 0px;
 }
