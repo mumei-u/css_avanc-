@@ -1,0 +1,42 @@
+h1 {
+    position:absolute;
+    text-align: center;
+    top:170px;
+    left: 45px;
+    width:100%;
+    font-size: 75px;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+nav {
+  top: 0;
+  padding: 0;
+  margin: 0;
+  background: #f19c2b;
+  display: flex;
+  justify-content: space-around;
+  height: 50px;
+  align-items: center;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  margin: 0 7px;
+}
+
+ .link:hover {
+   color: white;
+   transition: 0.2s;
+ }
+
+ .logo {
+   color: white;
+   text-decoration: none;
+   font-size: 22px;
+   transition: 0.2s;
+   font-weight: bolder;
+ }
