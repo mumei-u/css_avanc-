@@ -1,28 +1,7 @@
-body{
-  padding: 0;
-  margin: 0;
-}
-nav {
-  padding: 0;
-  margin: 0;
-  background: #2c3e50;
-  display: flex;
-  justify-content: space-around;
-  height: 60px;
-  align-items: center;
-}
-.link {
-    color: grey;
-    text-decoration: none;
-    margin: 0 7px;
-    font-size: 18px;
-}
+header
+{
 
-.link:hover {
-  color: white;
-  transition: 0.2s;
 }
-
 .logo {
   color: white;
   text-decoration: none;
@@ -34,14 +13,55 @@ nav {
 .header-title {
   position: absolute;
   text-align: center;
-  left: 43%;
+  left: 50%;
   top: 25%;
   font-size: 25px;
-  height: 20px;
-  font-style: bolder;
-
 }
 
 .header-img{
-  position: static;
+  position: top;
+  margin: 5px;
+}
+body{
+  padding: 0;
+  margin: 0;
+}
+nav {
+  padding: 0;
+  margin: 5px;
+  background: #2c3e50;
+  display: flex;
+  justify-content: space-around;
+  height: 60px;
+  align-items: center;
+}
+.link {
+    color: grey;
+    text-decoration: none;
+    margin: 0 8px;
+    font-size: 18px;
+}
+
+.link:hover {
+  color: white;
+  transition: 0.2s;
+}
+
+.container {
+  position: left;
+  margin: 5%;
+  background: grey;
+  width: 10%;
+  height: 100%;
+}
+.container2 {
+  position: right;
+  margin: 5%;
+  background: grey;
+  width: 30%;
+  height: 100%;
+}
+.container-text {
+  margin: 0px;
+  font-size: 16px;
 }
